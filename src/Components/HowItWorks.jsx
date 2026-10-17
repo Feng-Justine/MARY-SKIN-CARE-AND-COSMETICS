@@ -90,7 +90,7 @@ const Offerings = () => {
             letterSpacing: "2px",
           }}
         >
-          HOW IT WORKS
+          UNDERSTANDING YOUR SKIN
         </p>
 
         <h2

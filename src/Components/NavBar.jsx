@@ -35,71 +35,107 @@ const NavBar = () => {
 }}>
        <a
   href="#home"
+  onMouseEnter={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid #E50920";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid transparent";
+  }}
   style={{
-    textDecoration: "none",
     color: "#10072F",
-    fontSize: "15px",
-    fontWeight: "500",
-    cursor: "pointer",
+    textDecoration: "none",
+    paddingBottom: "6px",
+    borderBottom: "2px solid transparent",
+    transition: "border-color 0.3s ease",
   }}
 >
   Home
 </a>
+
   <a
   href="#about"
+  onMouseEnter={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid #E50920";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid transparent";
+  }}
   style={{
-    textDecoration: "none",
     color: "#10072F",
-    fontSize: "15px",
-    fontWeight: "500",
-    cursor: "pointer",
+    textDecoration: "none",
+    paddingBottom: "6px",
+    borderBottom: "2px solid transparent",
+    transition: "border-color 0.3s ease",
   }}
 >
   About
 </a>
+
  <a
   href="#offerings"
+  onMouseEnter={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid #E50920";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid transparent";
+  }}
   style={{
-    textDecoration: "none",
     color: "#10072F",
-    fontSize: "15px",
-    fontWeight: "500",
-    cursor: "pointer",
+    textDecoration: "none",
+    paddingBottom: "6px",
+    borderBottom: "2px solid transparent",
+    transition: "border-color 0.3s ease",
   }}
 >
   Offerings
 </a>
- <a
+
+<a
   href="#products"
+  onMouseEnter={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid #E50920";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid transparent";
+  }}
   style={{
-    textDecoration: "none",
     color: "#10072F",
-    fontSize: "15px",
-    fontWeight: "500",
-    cursor: "pointer",
+    textDecoration: "none",
+    paddingBottom: "6px",
+    borderBottom: "2px solid transparent",
+    transition: "border-color 0.3s ease",
   }}
 >
   Products
 </a>
+
  <a
   href="#contact"
+  onMouseEnter={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid #E50920";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid transparent";
+  }}
   style={{
-    textDecoration: "none",
     color: "#10072F",
-    fontSize: "15px",
-    fontWeight: "500",
-    cursor: "pointer",
+    textDecoration: "none",
+    paddingBottom: "6px",
+    borderBottom: "2px solid transparent",
+    transition: "border-color 0.3s ease",
   }}
 >
   Contact
 </a>
+
       </div>
       <div style={{
   display: "flex",
   alignItems: "center",
   flexShrink: 0,
 }}>
-       <button
+    
+<button
   onClick={() =>
     window.open("https://wa.me/255712552668", "_blank")
   }
@@ -117,6 +153,7 @@ const NavBar = () => {
 >
   Book an Appointment
 </button>
+
       </div>
     </div>
   )

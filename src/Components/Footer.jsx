@@ -4,15 +4,21 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 function Footer() {
   const currentYear = new Date().getFullYear();
 
-  const linkStyle = {
-    display: "block",
-    color: "#D9D6E5",
-    textDecoration: "none",
-    fontSize: "14px",
-    lineHeight: "1.8",
-    marginBottom: "12px",
-    overflowWrap: "anywhere",
-  };
+   
+const linkStyle = {
+  display: "block",
+  width: "fit-content",
+  color: "#D9D6E5",
+  textDecoration: "none",
+  fontSize: "14px",
+  lineHeight: "1.8",
+  marginBottom: "12px",
+  overflowWrap: "anywhere",
+  borderBottom: "2px solid transparent",
+  paddingBottom: "2px",
+  transition: "border-color 0.3s ease",
+};
+
 
   const headingStyle = {
     color: "#FFFFFF",
@@ -95,25 +101,72 @@ function Footer() {
         >
           <h3 style={headingStyle}>Quick Links</h3>
 
-          <a href="#home" style={linkStyle}>
-            Home
-          </a>
+          
+<a
+  href="#home"
+  style={linkStyle}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid #E50920";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid transparent";
+  }}
+>
+  Home
+</a>
 
-          <a href="#about" style={linkStyle}>
-            About Us
-          </a>
+<a
+  href="#about"
+  style={linkStyle}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid #E50920";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid transparent";
+  }}
+>
+  About Us
+</a>
 
-          <a href="#offerings" style={linkStyle}>
-            Offerings
-          </a>
+<a
+  href="#offerings"
+  style={linkStyle}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid #E50920";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid transparent";
+  }}
+>
+  Offerings
+</a>
 
-          <a href="#products" style={linkStyle}>
-            Products
-          </a>
+<a
+  href="#products"
+  style={linkStyle}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid #E50920";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid transparent";
+  }}
+>
+  Products
+</a>
 
-          <a href="#contact" style={linkStyle}>
-            Contact Us
-          </a>
+<a
+  href="#contact"
+  style={linkStyle}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid #E50920";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.borderBottom = "2px solid transparent";
+  }}
+>
+  Contact Us
+</a>
+
         </div>
 
         {/* Contact Details */}

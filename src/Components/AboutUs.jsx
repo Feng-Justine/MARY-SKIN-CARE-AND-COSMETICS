@@ -85,7 +85,7 @@ const AboutUs = () => {
             marginBottom: "18px",
           }}
         >
-          Dr. Mary Msekwa is a Community Dermatologist and Cosmetic Formulator Care of all Skin Problems. <br />
+          Dr. Mary Msekwa is a Community Dermatologist and Cosmetic Formulator of Skin conditons. <br />
           Dr. Mary is a skincare educator and health-focused
           entrepreneur dedicated to promoting skin health
           awareness and preventive care. As the founder of
@@ -106,7 +106,7 @@ const AboutUs = () => {
           skincare education for people of all ages. Her
           approach emphasizes understanding individual skin
           concerns, developing appropriate skincare routines,
-          and making informed choices that support healthy skin.
+          and making informed choices that support healthy skin. She formulates products according to the need of an individual
         </p>
 
         <p
