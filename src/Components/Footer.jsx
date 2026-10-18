@@ -4,21 +4,19 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 function Footer() {
   const currentYear = new Date().getFullYear();
 
-   
-const linkStyle = {
-  display: "block",
-  width: "fit-content",
-  color: "#D9D6E5",
-  textDecoration: "none",
-  fontSize: "14px",
-  lineHeight: "1.8",
-  marginBottom: "12px",
-  overflowWrap: "anywhere",
-  borderBottom: "2px solid transparent",
-  paddingBottom: "2px",
-  transition: "border-color 0.3s ease",
-};
-
+  const linkStyle = {
+    display: "block",
+    width: "fit-content",
+    color: "#D9D6E5",
+    textDecoration: "none",
+    fontSize: "14px",
+    lineHeight: "1.8",
+    marginBottom: "12px",
+    overflowWrap: "anywhere",
+    borderBottom: "2px solid transparent",
+    paddingBottom: "2px",
+    transition: "border-color 0.3s ease",
+  };
 
   const headingStyle = {
     color: "#FFFFFF",
@@ -87,8 +85,8 @@ const linkStyle = {
               marginBottom: "20px",
             }}
           >
-            Advancing skin health through research, knowledge,
-            and innovative approaches to skincare and skin diseases.
+            Advancing skin health through research, knowledge, and innovative
+            approaches to skincare and skin diseases.
           </p>
         </div>
 
@@ -101,72 +99,70 @@ const linkStyle = {
         >
           <h3 style={headingStyle}>Quick Links</h3>
 
-          
-<a
-  href="#home"
-  style={linkStyle}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.borderBottom = "2px solid #E50920";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.borderBottom = "2px solid transparent";
-  }}
->
-  Home
-</a>
+          <a
+            href="#home"
+            style={linkStyle}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.borderBottom = "2px solid #E50920";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.borderBottom = "2px solid transparent";
+            }}
+          >
+            Home
+          </a>
 
-<a
-  href="#about"
-  style={linkStyle}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.borderBottom = "2px solid #E50920";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.borderBottom = "2px solid transparent";
-  }}
->
-  About Us
-</a>
+          <a
+            href="#about"
+            style={linkStyle}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.borderBottom = "2px solid #E50920";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.borderBottom = "2px solid transparent";
+            }}
+          >
+            About Us
+          </a>
 
-<a
-  href="#offerings"
-  style={linkStyle}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.borderBottom = "2px solid #E50920";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.borderBottom = "2px solid transparent";
-  }}
->
-  Offerings
-</a>
+          <a
+            href="#offerings"
+            style={linkStyle}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.borderBottom = "2px solid #E50920";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.borderBottom = "2px solid transparent";
+            }}
+          >
+            Offerings
+          </a>
 
-<a
-  href="#products"
-  style={linkStyle}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.borderBottom = "2px solid #E50920";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.borderBottom = "2px solid transparent";
-  }}
->
-  Products
-</a>
+          <a
+            href="#products"
+            style={linkStyle}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.borderBottom = "2px solid #E50920";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.borderBottom = "2px solid transparent";
+            }}
+          >
+            Products
+          </a>
 
-<a
-  href="#contact"
-  style={linkStyle}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.borderBottom = "2px solid #E50920";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.borderBottom = "2px solid transparent";
-  }}
->
-  Contact Us
-</a>
-
+          <a
+            href="#contact"
+            style={linkStyle}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.borderBottom = "2px solid #E50920";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.borderBottom = "2px solid transparent";
+            }}
+          >
+            Contact Us
+          </a>
         </div>
 
         {/* Contact Details */}
@@ -178,10 +174,7 @@ const linkStyle = {
         >
           <h3 style={headingStyle}>Get in Touch</h3>
 
-          <a
-            href="mailto:maryskincare22@gmail.com"
-            style={linkStyle}
-          >
+          <a href="mailto:maryskincare22@gmail.com" style={linkStyle}>
             <i
               className="fa-solid fa-envelope"
               style={{
@@ -191,7 +184,7 @@ const linkStyle = {
             />
             maryskincare22@gmail.com
           </a>
-           <a
+          <a
             href="https://instagram.com/drmarymsekwa?mdxt=NDhoYmNoOWVicGV1&utm_source=qr"
             target="_blank"
             rel="noopener noreferrer"
@@ -206,7 +199,7 @@ const linkStyle = {
               }}
             />
             @drmarymsekwa
-            </a>
+          </a>
           <a
             href="https://wa.me/255712552668"
             target="_blank"
@@ -224,10 +217,7 @@ const linkStyle = {
             +255 712 552 668
           </a>
 
-          <a
-            href="tel:+255755831970"
-            style={linkStyle}
-          >
+          <a href="tel:+255755831970" style={linkStyle}>
             <i
               className="fa-solid fa-phone"
               style={{

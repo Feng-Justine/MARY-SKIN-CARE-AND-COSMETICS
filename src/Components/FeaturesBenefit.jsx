@@ -6,8 +6,7 @@ const FeaturesBenefit = () => {
       id: 1,
       name: "Betamethasone Valerate Ointment 0.025%",
       brand: "Mervate",
-      description:
-        "For management of inflammatory skin conditions.",
+      description: "For management of inflammatory skin conditions.",
     },
     {
       id: 2,
@@ -36,8 +35,7 @@ const FeaturesBenefit = () => {
     {
       id: 6,
       name: "Salicylic Acid Cleanser 2%",
-      description:
-        "Facial cleanser intended for oily and acne-prone skin.",
+      description: "Facial cleanser intended for oily and acne-prone skin.",
     },
     {
       id: 7,
@@ -48,20 +46,17 @@ const FeaturesBenefit = () => {
     {
       id: 8,
       name: "Salicylic Acid Solution for Acne 2%",
-      description:
-        "Helps unclog pores and reduce acne breakouts.",
+      description: "Helps unclog pores and reduce acne breakouts.",
     },
     {
       id: 9,
       name: "Rosemary Oil",
-      description:
-        "Natural oil commonly used in hair and scalp care.",
+      description: "Natural oil commonly used in hair and scalp care.",
     },
     {
       id: 10,
       name: "Turmeric Soap",
-      description:
-        "Herbal cleansing soap enriched with turmeric.",
+      description: "Herbal cleansing soap enriched with turmeric.",
     },
     {
       id: 11,
@@ -127,9 +122,8 @@ const FeaturesBenefit = () => {
             lineHeight: "1.8",
           }}
         >
-          Explore the MSCC product range for skin,
-          scalp, and personal care. Learn about the
-          intended uses of our different formulations.
+          Explore the MSCC product range for skin, scalp, and personal care.
+          Learn about the intended uses of our different formulations.
         </p>
       </div>
 
@@ -143,10 +137,7 @@ const FeaturesBenefit = () => {
         }}
       >
         {products.map((product) => (
-          <div
-            key={product.id}
-            style={productCardStyle}
-          >
+          <div key={product.id} style={productCardStyle}>
             {/* Product Number */}
             <div
               style={{

@@ -7,8 +7,7 @@ const Offerings = () => {
       title: "Infectious Skin Diseases",
       description:
         "Learn about skin infections, their possible causes, prevention, and appropriate care.",
-      image:
-        "/Infectious.png",
+      image: "/Infectious.png",
       imageAlt: "Skin care and skin health",
       diseases: ["Fungal Skin Infections"],
     },
@@ -17,8 +16,7 @@ const Offerings = () => {
       title: "Inflammatory Skin Diseases",
       description:
         "Explore common inflammatory skin conditions, suitable skincare practices, and when to seek professional assessment.",
-      image:
-        "Inflammatory.png",
+      image: "Inflammatory.png",
       imageAlt: "Skin health and skincare",
       diseases: [
         "Atopic Dermatitis",
@@ -33,8 +31,7 @@ const Offerings = () => {
       title: "Disorders of Skin Appendages",
       description:
         "Understand conditions affecting structures such as hair follicles and sebaceous glands, including common acne conditions.",
-      image:
-        "Disorders.png",
+      image: "Disorders.png",
       imageAlt: "Skincare products and skin health",
       diseases: ["Acne Vulgaris"],
     },
@@ -110,10 +107,9 @@ const Offerings = () => {
             lineHeight: "1.8",
           }}
         >
-          MSCC provides skincare education and guidance
-          to help people understand different skin
-          conditions, make informed decisions, and seek
-          appropriate care for their skin health needs.
+          MSCC provides skincare education and guidance to help people
+          understand different skin conditions, make informed decisions, and
+          seek appropriate care for their skin health needs.
         </p>
       </div>
 
@@ -127,10 +123,7 @@ const Offerings = () => {
         }}
       >
         {categories.map((category) => (
-          <div
-            key={category.number}
-            style={cardStyle}
-          >
+          <div key={category.number} style={cardStyle}>
             {/* Small Category Image */}
             <img
               src={category.image}
@@ -158,9 +151,7 @@ const Offerings = () => {
               {category.number}
             </div>
 
-            <h3 style={headingStyle}>
-              {category.title}
-            </h3>
+            <h3 style={headingStyle}>{category.title}</h3>
 
             <p
               style={{
@@ -175,10 +166,7 @@ const Offerings = () => {
 
             <div style={{ marginTop: "15px" }}>
               {category.diseases.map((disease) => (
-                <div
-                  key={disease}
-                  style={itemStyle}
-                >
+                <div key={disease} style={itemStyle}>
                   <span
                     style={{
                       color: "#E50920",

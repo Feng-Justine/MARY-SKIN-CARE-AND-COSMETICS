@@ -25,14 +25,14 @@ const AboutUs = () => {
         <img
           src="/Dr. Mary.png"
           alt="Dr. Mary, founder of Mary Skin Care and Cosmetics"
-           style={{
-            width: "100%", 
+          style={{
+            width: "100%",
             height: "100%",
             objectFit: "cover",
             objectPosition: "center",
             borderRadius: "12px",
             display: "block",
-        }}
+          }}
         />
       </div>
 
@@ -85,13 +85,13 @@ const AboutUs = () => {
             marginBottom: "18px",
           }}
         >
-          Dr. Mary Msekwa is a Community Dermatologist and Cosmetic Formulator of Skin conditons. <br />
-          Dr. Mary is a skincare educator and health-focused
-          entrepreneur dedicated to promoting skin health
-          awareness and preventive care. As the founder of
-          Mary Skin Care and Cosmetics (MSCC), she is committed
-          to helping people understand their skin and make
-          informed decisions about their skincare needs.
+          Dr. Mary Msekwa is a Community Dermatologist and Cosmetic Formulator
+          of Skin conditons. <br />
+          Dr. Mary is a skincare educator and health-focused entrepreneur
+          dedicated to promoting skin health awareness and preventive care. As
+          the founder of Mary Skin Care and Cosmetics (MSCC), she is committed
+          to helping people understand their skin and make informed decisions
+          about their skincare needs.
         </p>
 
         <p
@@ -102,11 +102,11 @@ const AboutUs = () => {
             marginBottom: "18px",
           }}
         >
-          Through MSCC, she provides trusted, science-based
-          skincare education for people of all ages. Her
-          approach emphasizes understanding individual skin
-          concerns, developing appropriate skincare routines,
-          and making informed choices that support healthy skin. She formulates products according to the need of an individual
+          Through MSCC, she provides trusted, science-based skincare education
+          for people of all ages. Her approach emphasizes understanding
+          individual skin concerns, developing appropriate skincare routines,
+          and making informed choices that support healthy skin. She formulates
+          products according to the need of an individual
         </p>
 
         <p
@@ -117,10 +117,9 @@ const AboutUs = () => {
             marginBottom: "25px",
           }}
         >
-          In addition to leading MSCC, Dr. Mary serves as the
-          Chief of the Compounding Department. Her professional
-          responsibilities complement her commitment to
-          promoting informed, responsible, and health-focused
+          In addition to leading MSCC, Dr. Mary serves as the Chief of the
+          Compounding Department. Her professional responsibilities complement
+          her commitment to promoting informed, responsible, and health-focused
           skincare practices.
         </p>
 
@@ -140,8 +139,8 @@ const AboutUs = () => {
               margin: 0,
             }}
           >
-            "Empowering people with skincare knowledge
-            for healthier skin and informed choices."
+            "Empowering people with skincare knowledge for healthier skin and
+            informed choices."
           </p>
         </div>
       </div>

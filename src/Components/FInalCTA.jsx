@@ -49,38 +49,35 @@ const FinalCTA = () => {
             marginBottom: "30px",
           }}
         >
-          Collaborate with MSCC, explore our cosmeceutical
-          products, or connect with us to discover how we
-          can work together to support skin health.
+          Collaborate with MSCC, explore our cosmeceutical products, or connect
+          with us to discover how we can work together to support skin health.
         </p>
 
-    
-{/* Contact Button */}
-<a
-  href="#contact"
-  onMouseEnter={(e) => {
-    e.currentTarget.style.transform = "scale(1.05)";
-    e.currentTarget.style.boxShadow = "0 6px 15px #E5092040";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.transform = "scale(1)";
-    e.currentTarget.style.boxShadow = "none";
-  }}
-  style={{
-    display: "inline-block",
-    backgroundColor: "#E50920",
-    color: "#FFFFFF",
-    padding: "14px 30px",
-    borderRadius: "6px",
-    textDecoration: "none",
-    fontSize: "15px",
-    fontWeight: "bold",
-    transition: "transform 0.3s ease, box-shadow 0.3s ease",
-  }}
->
-  Get in Touch
-</a>
-
+        {/* Contact Button */}
+        <a
+          href="#contact"
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = "scale(1.05)";
+            e.currentTarget.style.boxShadow = "0 6px 15px #E5092040";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = "scale(1)";
+            e.currentTarget.style.boxShadow = "none";
+          }}
+          style={{
+            display: "inline-block",
+            backgroundColor: "#E50920",
+            color: "#FFFFFF",
+            padding: "14px 30px",
+            borderRadius: "6px",
+            textDecoration: "none",
+            fontSize: "15px",
+            fontWeight: "bold",
+            transition: "transform 0.3s ease, box-shadow 0.3s ease",
+          }}
+        >
+          Get in Touch
+        </a>
       </div>
     </section>
   );
