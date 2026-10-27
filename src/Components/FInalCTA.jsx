@@ -16,7 +16,7 @@ const FinalCTA = () => {
         {/* Section Label */}
         <p
           style={{
-            color: "#E50920",
+            color: "#9CAF88",
             fontSize: "14px",
             fontWeight: "bold",
             letterSpacing: "2px",
@@ -29,7 +29,7 @@ const FinalCTA = () => {
         {/* Main Heading */}
         <h2
           style={{
-            color: "#10072F",
+            color: "#30382E",
             fontSize: "clamp(28px, 4vw, 40px)",
             lineHeight: "1.3",
             marginBottom: "20px",
@@ -41,7 +41,7 @@ const FinalCTA = () => {
         {/* Description */}
         <p
           style={{
-            color: "#10072F",
+            color: "#30382E",
             fontSize: "16px",
             lineHeight: "1.8",
             marginBottom: "30px",
@@ -56,7 +56,7 @@ const FinalCTA = () => {
           href="#contact"
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = "scale(1.05)";
-            e.currentTarget.style.boxShadow = "0 6px 15px #E5092040";
+            e.currentTarget.style.boxShadow = "0 6px 15px #9CAF8840";
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = "scale(1)";
@@ -64,7 +64,7 @@ const FinalCTA = () => {
           }}
           style={{
             display: "inline-block",
-            backgroundColor: "#E50920",
+            backgroundColor: "#9CAF88",
             color: "#FFFFFF",
             padding: "14px 30px",
             borderRadius: "6px",

@@ -6,7 +6,7 @@ function Footer() {
   const linkStyle = {
     display: "block",
     width: "fit-content",
-    color: "#D9D6E5",
+    color: "#E8EAE2",
     textDecoration: "none",
     fontSize: "14px",
     lineHeight: "1.8",
@@ -36,7 +36,7 @@ function Footer() {
     <footer
       id="contact"
       style={{
-        backgroundColor: "#10072F",
+        backgroundColor: "#30382E",
         color: "#FFFFFF",
         padding: "60px 8% 20px",
         fontFamily: "Arial, sans-serif",
@@ -71,13 +71,13 @@ function Footer() {
               color: "#FFFFFF",
             }}
           >
-            <span style={{ color: "#E53945" }}>MS</span>
+            <span style={{ color: "#9CAF88" }}>MS</span>
             <span>CC</span>
           </h2>
 
           <p
             style={{
-              color: "#D9D6E5",
+              color: "#E8EAE2",
               fontSize: "14px",
               lineHeight: "1.9",
               maxWidth: "300px",
@@ -102,7 +102,7 @@ function Footer() {
             href="#home"
             style={linkStyle}
             onMouseEnter={(e) => {
-              e.currentTarget.style.borderBottom = "2px solid #E50920";
+              e.currentTarget.style.borderBottom = "2px solid #9CAF88";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.borderBottom = "2px solid transparent";
@@ -115,7 +115,7 @@ function Footer() {
             href="#about"
             style={linkStyle}
             onMouseEnter={(e) => {
-              e.currentTarget.style.borderBottom = "2px solid #E50920";
+              e.currentTarget.style.borderBottom = "2px solid #9CAF88";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.borderBottom = "2px solid transparent";
@@ -128,7 +128,7 @@ function Footer() {
             href="#offerings"
             style={linkStyle}
             onMouseEnter={(e) => {
-              e.currentTarget.style.borderBottom = "2px solid #E50920";
+              e.currentTarget.style.borderBottom = "2px solid #9CAF88";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.borderBottom = "2px solid transparent";
@@ -141,7 +141,7 @@ function Footer() {
             href="#products"
             style={linkStyle}
             onMouseEnter={(e) => {
-              e.currentTarget.style.borderBottom = "2px solid #E50920";
+              e.currentTarget.style.borderBottom = "2px solid #9CAF88";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.borderBottom = "2px solid transparent";
@@ -154,7 +154,7 @@ function Footer() {
             href="#contact"
             style={linkStyle}
             onMouseEnter={(e) => {
-              e.currentTarget.style.borderBottom = "2px solid #E50920";
+              e.currentTarget.style.borderBottom = "2px solid #9CAF88";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.borderBottom = "2px solid transparent";
@@ -178,11 +178,12 @@ function Footer() {
               className="fa-solid fa-envelope"
               style={{
                 ...iconStyle,
-                color: "#E53945",
+                color: "#9CAF88",
               }}
             />
             maryskincare22@gmail.com
           </a>
+
           <a
             href="https://instagram.com/drmarymsekwa?mdxt=NDhoYmNoOWVicGV1&utm_source=qr"
             target="_blank"
@@ -199,6 +200,7 @@ function Footer() {
             />
             @drmarymsekwa
           </a>
+
           <a
             href="https://wa.me/255712552668"
             target="_blank"
@@ -221,7 +223,7 @@ function Footer() {
               className="fa-solid fa-phone"
               style={{
                 ...iconStyle,
-                color: "#E53945",
+                color: "#9CAF88",
               }}
             />
             0755 831 970
@@ -239,7 +241,7 @@ function Footer() {
 
           <p
             style={{
-              color: "#D9D6E5",
+              color: "#E8EAE2",
               fontSize: "14px",
               lineHeight: "1.8",
               marginTop: 0,
@@ -250,7 +252,7 @@ function Footer() {
               className="fa-solid fa-location-dot"
               style={{
                 ...iconStyle,
-                color: "#E53945",
+                color: "#9CAF88",
                 fontSize: "18px",
               }}
             />
@@ -263,7 +265,7 @@ function Footer() {
             rel="noopener noreferrer"
             style={{
               ...linkStyle,
-              color: "#E53945",
+              color: "#9CAF88",
               fontWeight: "bold",
             }}
           >
@@ -271,7 +273,7 @@ function Footer() {
               className="fa-solid fa-map-location-dot"
               style={{
                 ...iconStyle,
-                color: "#E53945",
+                color: "#9CAF88",
                 fontSize: "17px",
               }}
             />
@@ -286,7 +288,7 @@ function Footer() {
           maxWidth: "1200px",
           margin: "45px auto 0",
           paddingTop: "22px",
-          borderTop: "1px solid #39314F",
+          borderTop: "1px solid #4F5948",
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "space-between",
@@ -296,7 +298,7 @@ function Footer() {
       >
         <p
           style={{
-            color: "#D9D6E5",
+            color: "#E8EAE2",
             fontSize: "13px",
             lineHeight: "1.8",
             margin: 0,
@@ -308,7 +310,7 @@ function Footer() {
         <a
           href="#home"
           style={{
-            color: "#E53945",
+            color: "#9CAF88",
             textDecoration: "none",
             fontSize: "13px",
             fontWeight: "bold",

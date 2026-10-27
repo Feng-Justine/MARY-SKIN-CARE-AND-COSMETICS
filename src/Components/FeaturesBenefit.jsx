@@ -66,14 +66,14 @@ const FeaturesBenefit = () => {
 
   const productCardStyle = {
     backgroundColor: "#FFFFFF",
-    border: "1px solid #F0E4E0",
+    border: "1px solid #E8EAE2",
     borderRadius: "10px",
     padding: "25px",
     boxSizing: "border-box",
     display: "flex",
     flexDirection: "column",
     alignItems: "flex-start",
-    boxShadow: "0 4px 15px rgba(16, 7, 47, 0.04)",
+    boxShadow: "0 4px 15px rgba(48, 56, 46, 0.06)",
   };
 
   return (
@@ -81,7 +81,7 @@ const FeaturesBenefit = () => {
       id="products"
       style={{
         padding: "80px 8%",
-        backgroundColor: "#FFF9F5",
+        backgroundColor: "#F7F6F0",
       }}
     >
       {/* Section Introduction */}
@@ -94,7 +94,7 @@ const FeaturesBenefit = () => {
       >
         <p
           style={{
-            color: "#E50920",
+            color: "#9CAF88",
             fontSize: "14px",
             fontWeight: "bold",
             letterSpacing: "2px",
@@ -105,7 +105,7 @@ const FeaturesBenefit = () => {
 
         <h2
           style={{
-            color: "#10072F",
+            color: "#30382E",
             fontSize: "clamp(28px, 4vw, 40px)",
             marginBottom: "18px",
           }}
@@ -115,7 +115,7 @@ const FeaturesBenefit = () => {
 
         <p
           style={{
-            color: "#555555",
+            color: "#4A4D45",
             fontSize: "16px",
             lineHeight: "1.8",
           }}
@@ -139,7 +139,7 @@ const FeaturesBenefit = () => {
             {/* Product Number */}
             <div
               style={{
-                color: "#E50920",
+                color: "#9CAF88",
                 fontSize: "13px",
                 fontWeight: "bold",
                 letterSpacing: "1px",
@@ -152,7 +152,7 @@ const FeaturesBenefit = () => {
             {/* Product Name */}
             <h3
               style={{
-                color: "#10072F",
+                color: "#30382E",
                 fontSize: "19px",
                 lineHeight: "1.5",
                 margin: "0 0 12px",
@@ -165,7 +165,7 @@ const FeaturesBenefit = () => {
             {product.brand && (
               <p
                 style={{
-                  color: "#E50920",
+                  color: "#9CAF88",
                   fontSize: "14px",
                   fontWeight: "bold",
                   margin: "0 0 12px",
@@ -178,7 +178,7 @@ const FeaturesBenefit = () => {
             {/* Product Description */}
             <p
               style={{
-                color: "#555555",
+                color: "#4A4D45",
                 fontSize: "15px",
                 lineHeight: "1.8",
                 margin: 0,

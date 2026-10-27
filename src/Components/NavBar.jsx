@@ -36,9 +36,9 @@ const NavBar = () => {
   };
 
   const linkStyle = () => ({
-    color: "#10072F",
+    color: "#30382E",
     textDecoration: "none",
-    padding: "8px 0 6px",
+    padding: "6px 0",
     borderBottom: "2px solid transparent",
     fontSize: "15px",
     fontWeight: "500",
@@ -51,7 +51,7 @@ const NavBar = () => {
       style={{
         width: "100%",
         backgroundColor: "#FFFFFF",
-        borderBottom: "1px solid #f5f4f4",
+        borderBottom: "1px solid #E8EAE2",
         fontFamily: "Arial, sans-serif",
         boxSizing: "border-box",
         position: "relative",
@@ -64,13 +64,13 @@ const NavBar = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          padding: isSmallPhone ? "10px 4%" : isPhone ? "12px 4%" : "15px 5%",
-          gap: isPhone ? "8px" : "24px",
-          minHeight: isPhone ? "70px" : "90px",
+          padding: isSmallPhone ? "7px 3%" : isPhone ? "8px 4%" : "9px 5%",
+          gap: isPhone ? "6px" : "20px",
+          minHeight: "unset",
           boxSizing: "border-box",
         }}
       >
-        {/* MSCC logo */}
+        {/* Enlarged MSCC logo without increasing navbar height */}
         <a
           href="#home"
           onClick={handleNavigation}
@@ -79,16 +79,23 @@ const NavBar = () => {
             display: "flex",
             alignItems: "center",
             flexShrink: 0,
+            lineHeight: 0,
           }}
         >
           <img
             src="/MSCC logo.png"
             alt="Mary Skin Care and Cosmetics Logo"
             style={{
-              width: isSmallPhone ? "50px" : isPhone ? "60px" : "75px",
-              height: isSmallPhone ? "50px" : isPhone ? "60px" : "75px",
+              width: isSmallPhone ? "48px" : isPhone ? "54px" : "68px",
+              height: isSmallPhone ? "48px" : isPhone ? "54px" : "68px",
               objectFit: "contain",
               display: "block",
+              transform: isSmallPhone
+                ? "scale(1.3)"
+                : isPhone
+                  ? "scale(1.35)"
+                  : "scale(1.4)",
+              transformOrigin: "center",
             }}
           />
         </a>
@@ -110,10 +117,12 @@ const NavBar = () => {
                 href={link.href}
                 onClick={handleNavigation}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.borderBottom = "2px solid #E50920";
+                  e.currentTarget.style.borderBottom = "2px solid #9CAF88";
+                  e.currentTarget.style.color = "#4F5948";
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.borderBottom = "2px solid transparent";
+                  e.currentTarget.style.color = "#30382E";
                 }}
                 style={linkStyle()}
               >
@@ -134,23 +143,27 @@ const NavBar = () => {
             )
           }
           onMouseEnter={(e) => {
-            e.currentTarget.style.backgroundColor = "#B80719";
-            e.currentTarget.style.transform = "translateY(-2px)";
+            e.currentTarget.style.backgroundColor = "#4F5948";
+            e.currentTarget.style.transform = "translateY(-1px)";
             e.currentTarget.style.boxShadow =
-              "0 4px 12px rgba(229, 9, 32, 0.2)";
+              "0 4px 12px rgba(156, 175, 136, 0.25)";
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.backgroundColor = "#E50920";
+            e.currentTarget.style.backgroundColor = "#9CAF88";
             e.currentTarget.style.transform = "translateY(0)";
             e.currentTarget.style.boxShadow = "none";
           }}
           style={{
-            backgroundColor: "#E50920",
+            backgroundColor: "#9CAF88",
             color: "#FFFFFF",
-            padding: isPhone ? "10px 12px" : "13px 22px",
+            padding: isSmallPhone
+              ? "7px 8px"
+              : isPhone
+                ? "8px 10px"
+                : "9px 16px",
             border: "none",
             borderRadius: "6px",
-            fontSize: isPhone ? "13px" : "14px",
+            fontSize: isPhone ? "12px" : "14px",
             fontWeight: "600",
             cursor: "pointer",
             whiteSpace: "nowrap",
@@ -172,23 +185,23 @@ const NavBar = () => {
             aria-expanded={menuOpen}
             aria-controls="mscc-mobile-navigation"
             onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = "#FFF1F3";
+              e.currentTarget.style.backgroundColor = "#E8EAE2";
               e.currentTarget.style.boxShadow =
-                "0 2px 8px rgba(16, 7, 47, 0.12)";
+                "0 2px 8px rgba(48, 56, 46, 0.12)";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.backgroundColor = "#FFFFFF";
               e.currentTarget.style.boxShadow = "none";
             }}
             style={{
-              width: "42px",
-              height: "42px",
+              width: "34px",
+              height: "34px",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
               gap: "5px",
-              border: "1px solid #F0E9EA",
+              border: "1px solid #E8EAE2",
               borderRadius: "6px",
               backgroundColor: "#FFFFFF",
               cursor: "pointer",
@@ -202,10 +215,10 @@ const NavBar = () => {
                 key={line}
                 style={{
                   display: "block",
-                  width: "20px",
+                  width: "18px",
                   height: "2px",
                   borderRadius: "2px",
-                  backgroundColor: menuOpen ? "#E50920" : "#10072F",
+                  backgroundColor: menuOpen ? "#9CAF88" : "#30382E",
                   transition: "all 0.25s ease",
                 }}
               />
@@ -220,25 +233,25 @@ const NavBar = () => {
           id="mscc-mobile-navigation"
           style={{
             backgroundColor: "#FFFFFF",
-            borderTop: "1px solid #F5F4F4",
-            boxShadow: "0 8px 18px rgba(16, 7, 47, 0.08)",
-            padding: isSmallPhone ? "20px 6%" : "24px 5%",
+            borderTop: "1px solid #E8EAE2",
+            boxShadow: "0 8px 18px rgba(48, 56, 46, 0.08)",
+            padding: isSmallPhone ? "16px 6%" : "20px 5%",
           }}
         >
           {/* Business name */}
           <div
             style={{
-              color: "#10072F",
+              color: "#30382E",
               fontSize: isSmallPhone ? "18px" : "21px",
               fontWeight: "700",
               lineHeight: 1.4,
-              marginBottom: "18px",
+              marginBottom: "14px",
             }}
           >
             Mary Skin Care and Cosmetics
           </div>
 
-          {/* All five navigation links */}
+          {/* Navigation links */}
           <div
             style={{
               display: "flex",
@@ -252,8 +265,8 @@ const NavBar = () => {
                 href={link.href}
                 onClick={handleNavigation}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = "#FFF1F3";
-                  e.currentTarget.style.borderLeft = "3px solid #E50920";
+                  e.currentTarget.style.backgroundColor = "#E8EAE2";
+                  e.currentTarget.style.borderLeft = "3px solid #9CAF88";
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.backgroundColor = "#FFFFFF";
@@ -261,9 +274,9 @@ const NavBar = () => {
                 }}
                 style={{
                   display: "block",
-                  color: "#10072F",
+                  color: "#30382E",
                   textDecoration: "none",
-                  padding: "12px 14px",
+                  padding: "10px 14px",
                   borderLeft: "3px solid transparent",
                   backgroundColor: "#FFFFFF",
                   fontSize: "15px",

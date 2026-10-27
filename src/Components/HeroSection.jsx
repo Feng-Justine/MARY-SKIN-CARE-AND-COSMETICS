@@ -8,7 +8,7 @@ function HeroSection() {
         justifyContent: "space-between",
         gap: "40px",
         padding: "80px 8%",
-        backgroundColor: "#FFF9F5",
+        backgroundColor: "#F7F6F0",
         minHeight: "450px",
         flexWrap: "wrap",
       }}
@@ -35,7 +35,7 @@ function HeroSection() {
             <span
               key={item}
               style={{
-                color: "#10072F",
+                color: "#30382E",
                 fontSize: "16px",
                 fontWeight: "bold",
                 letterSpacing: "3px",
@@ -46,7 +46,7 @@ function HeroSection() {
               WE DEAL WITH COSMECEUTICALS
               <span
                 style={{
-                  color: "#E50920",
+                  color: "#9CAF88",
                   marginLeft: "35px",
                 }}
               >
@@ -58,15 +58,15 @@ function HeroSection() {
 
         <style>
           {`
-      @keyframes cosmeceuticalsScroll {
-        from {
-          transform: translateX(0);
-        }
-        to {
-          transform: translateX(-50%);
-        }
-      }
-    `}
+            @keyframes cosmeceuticalsScroll {
+              from {
+                transform: translateX(0);
+              }
+              to {
+                transform: translateX(-50%);
+              }
+            }
+          `}
         </style>
       </div>
 
@@ -81,7 +81,7 @@ function HeroSection() {
       >
         <p
           style={{
-            color: "#B83D48",
+            color: "#9CAF88",
             fontSize: "14px",
             fontWeight: "bold",
             letterSpacing: "2px",
@@ -92,7 +92,7 @@ function HeroSection() {
 
         <h1
           style={{
-            color: "#10072F",
+            color: "#30382E",
             fontSize: "clamp(32px, 4vw, 52px)",
             lineHeight: "1.2",
             marginBottom: "20px",
@@ -101,7 +101,7 @@ function HeroSection() {
           Healthy{" "}
           <span
             style={{
-              color: "#E50920",
+              color: "#9CAF88",
               fontStyle: "italic",
             }}
           >
@@ -110,7 +110,7 @@ function HeroSection() {
           Starts with the Right{" "}
           <span
             style={{
-              color: "#E50920",
+              color: "#9CAF88",
               fontStyle: "italic",
             }}
           >
@@ -121,7 +121,7 @@ function HeroSection() {
 
         <p
           style={{
-            color: "#555555",
+            color: "#4A4D45",
             fontSize: "17px",
             lineHeight: "1.8",
             maxWidth: "550px",
@@ -147,14 +147,15 @@ function HeroSection() {
             href="#products"
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = "scale(1.05)";
-              e.currentTarget.style.boxShadow = "0 6px 15px #E5092040";
+              e.currentTarget.style.boxShadow =
+                "0 6px 15px rgba(134, 141, 125, 0.25)";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.transform = "scale(1)";
               e.currentTarget.style.boxShadow = "none";
             }}
             style={{
-              backgroundColor: "#E50920",
+              backgroundColor: "#9CAF88",
               color: "#FFFFFF",
               padding: "14px 24px",
               textDecoration: "none",
@@ -171,15 +172,16 @@ function HeroSection() {
             href="#offerings"
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = "scale(1.05)";
-              e.currentTarget.style.boxShadow = "0 6px 15px #10072F30";
+              e.currentTarget.style.boxShadow =
+                "0 6px 15px rgba(48, 56, 46, 0.19)";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.transform = "scale(1)";
               e.currentTarget.style.boxShadow = "none";
             }}
             style={{
-              border: "2px solid #10072F",
-              color: "#10072F",
+              border: "2px solid #30382E",
+              color: "#30382E",
               padding: "12px 22px",
               textDecoration: "none",
               borderRadius: "5px",
@@ -194,7 +196,7 @@ function HeroSection() {
 
         <p
           style={{
-            color: "#777777",
+            color: "#4A4D45",
             fontSize: "13px",
             marginTop: "25px",
           }}

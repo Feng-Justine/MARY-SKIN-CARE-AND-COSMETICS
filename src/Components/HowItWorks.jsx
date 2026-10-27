@@ -41,24 +41,24 @@ const Offerings = () => {
     backgroundColor: "#FFFFFF",
     padding: "24px",
     borderRadius: "10px",
-    border: "1px solid #F0E4E0",
+    border: "1px solid #E8EAE2",
     boxSizing: "border-box",
-    boxShadow: "0 4px 15px rgba(16, 7, 47, 0.04)",
+    boxShadow: "0 4px 15px rgba(48, 56, 46, 0.06)",
   };
 
   const headingStyle = {
-    color: "#10072F",
+    color: "#30382E",
     fontSize: "21px",
     lineHeight: "1.4",
     marginBottom: "12px",
   };
 
   const itemStyle = {
-    color: "#555555",
+    color: "#4A4D45",
     fontSize: "15px",
     lineHeight: "1.7",
     padding: "9px 0",
-    borderBottom: "1px solid #F2EAE7",
+    borderBottom: "1px solid #E8EAE2",
   };
 
   return (
@@ -66,7 +66,7 @@ const Offerings = () => {
       id="offerings"
       style={{
         padding: "70px 8%",
-        backgroundColor: "#FFF9F5",
+        backgroundColor: "#F7F6F0",
       }}
     >
       {/* Section Introduction */}
@@ -79,7 +79,7 @@ const Offerings = () => {
       >
         <p
           style={{
-            color: "#E50920",
+            color: "#9CAF88",
             fontSize: "14px",
             fontWeight: "bold",
             letterSpacing: "2px",
@@ -90,7 +90,7 @@ const Offerings = () => {
 
         <h2
           style={{
-            color: "#10072F",
+            color: "#30382E",
             fontSize: "clamp(28px, 4vw, 40px)",
             marginBottom: "18px",
           }}
@@ -100,7 +100,7 @@ const Offerings = () => {
 
         <p
           style={{
-            color: "#555555",
+            color: "#4A4D45",
             fontSize: "16px",
             lineHeight: "1.8",
           }}
@@ -139,7 +139,7 @@ const Offerings = () => {
 
             <div
               style={{
-                color: "#E50920",
+                color: "#9CAF88",
                 fontSize: "13px",
                 fontWeight: "bold",
                 marginBottom: "10px",
@@ -153,7 +153,7 @@ const Offerings = () => {
 
             <p
               style={{
-                color: "#666666",
+                color: "#4A4D45",
                 fontSize: "15px",
                 lineHeight: "1.7",
                 marginBottom: "15px",
@@ -167,7 +167,7 @@ const Offerings = () => {
                 <div key={disease} style={itemStyle}>
                   <span
                     style={{
-                      color: "#E50920",
+                      color: "#9CAF88",
                       marginRight: "10px",
                       fontWeight: "bold",
                     }}

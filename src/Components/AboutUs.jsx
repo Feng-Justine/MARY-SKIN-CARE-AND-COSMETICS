@@ -8,7 +8,7 @@ const AboutUs = () => {
         justifyContent: "space-between",
         gap: "50px",
         padding: "80px 8%",
-        backgroundColor: "#FFF9F5",
+        backgroundColor: "#F7F6F0",
         flexWrap: "wrap",
       }}
     >
@@ -43,7 +43,7 @@ const AboutUs = () => {
       >
         <p
           style={{
-            color: "#B83D48",
+            color: "#9CAF88",
             fontSize: "14px",
             fontWeight: "bold",
             letterSpacing: "2px",
@@ -55,7 +55,7 @@ const AboutUs = () => {
 
         <h2
           style={{
-            color: "#10072F",
+            color: "#30382E",
             fontSize: "clamp(30px, 4vw, 42px)",
             lineHeight: "1.3",
             margin: "0 0 10px",
@@ -66,7 +66,7 @@ const AboutUs = () => {
 
         <p
           style={{
-            color: "#B83D48",
+            color: "#9CAF88",
             fontSize: "16px",
             fontWeight: "600",
             marginBottom: "25px",
@@ -77,7 +77,7 @@ const AboutUs = () => {
 
         <p
           style={{
-            color: "#555555",
+            color: "#4A4D45",
             fontSize: "16px",
             lineHeight: "1.9",
             marginBottom: "18px",
@@ -94,7 +94,7 @@ const AboutUs = () => {
 
         <p
           style={{
-            color: "#555555",
+            color: "#4A4D45",
             fontSize: "16px",
             lineHeight: "1.9",
             marginBottom: "18px",
@@ -109,7 +109,7 @@ const AboutUs = () => {
 
         <p
           style={{
-            color: "#555555",
+            color: "#4A4D45",
             fontSize: "16px",
             lineHeight: "1.9",
             marginBottom: "25px",
@@ -123,14 +123,14 @@ const AboutUs = () => {
 
         <div
           style={{
-            borderLeft: "4px solid #E50920",
+            borderLeft: "4px solid #9CAF88",
             paddingLeft: "18px",
             marginTop: "25px",
           }}
         >
           <p
             style={{
-              color: "#10072F",
+              color: "#30382E",
               fontSize: "17px",
               fontWeight: "600",
               lineHeight: "1.7",
